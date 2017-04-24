@@ -25,7 +25,8 @@ android {
 
 dependencies {
   compile fileTree(dir: 'libs', include: ['*.jar'])
-  android.defaultConfig.javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = true
+//  android.defaultConfig.javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = true
   compile "io.javaslang:javaslang:2.0.5"
+  annotationProcessor "io.javaslang:javaslang:2.0.5"
 
 }
