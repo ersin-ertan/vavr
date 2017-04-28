@@ -66,7 +66,6 @@ public class V_3_2_0_Functions {
     sumBy10.apply(1).equals(11);
   }
 
-  // TODO - understand the currying vs partial functions
   void currying() {
     // partially apply a function by fixing values for one of the params, resulting in a Function1 function that returns a Function1
     // thus Function2 is curried, result is indistinguishable from partial application of Function2 because bothe return 1 arity
